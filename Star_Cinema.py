@@ -32,7 +32,7 @@ class Hall(Star_Cinema):
                 print("\nSeat already booked\n")
                 return
             show_seats[row][col] = 1
-        print("\nSeats booked successfully\n")
+        print(f"\nSeat({row},{col}) booked successfully\n")
 
 
     def view_show_list(self):
