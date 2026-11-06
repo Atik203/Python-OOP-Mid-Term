@@ -10,7 +10,7 @@
    - `cols` which is the column of the seats in that hall
    - `hall_no` which is the unique no. of that hall
 
-Initialize an object of class Hall with `rows`, `cols` and `hall_no`. And insert that  object to the `Star_Cinema` class attribute named `hall_list` inside the initializer using inheritance. seats and `show_list` will be empty initially.
+ Initialize an object of class Hall with `rows`, `cols` and `hall_no`. And insert that  object to the `Star_Cinema` class attribute named `hall_list` inside the initializer using inheritance. seats and `show_list` will be empty initially.
 
 3. Make a method in Hall class named `entry_show()` which will take `id`, `movie_name` and time in string format. Make a tuple with all of the information and append it to the `show_list` attribute. Allocate seats with rows and cols using 2d list, initially all seats will be free. Make a key with id to the attribute seats and value will be the 2d list.
 
